@@ -29,7 +29,7 @@
         font-family: var(--fontFamily);
         font-size: 15px;
         position: relative;
-        overflow-y: hidden;
+        overflow-x: hidden;
     
     }
     a{
