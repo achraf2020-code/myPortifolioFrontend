@@ -70,7 +70,7 @@ const currentDiv =(n)=> {
   const messageError = document.querySelector('#emessage')
 
   btnSend.addEventListener('click',(e)=>{
-    btnLoading.style.visibility="visible"
+    btnLoading.style.display="inlineBlock"
     btnSend.disabled=true;
     // alert(email.value + ' '+name.value+' '+subject.value+' '+message.value)
    e.preventDefault()

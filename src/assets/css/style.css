@@ -345,7 +345,7 @@
         
     width: 26px;
     margin-left: 1.618rem;
-    visibility:hidden;
+    display: none;
 
     }
     /* social sectio  */
