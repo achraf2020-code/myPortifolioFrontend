@@ -408,7 +408,7 @@
 /* responsive for tablet  */
 @media screen and (max-width:720px) {
     body{
-        overflow-x: hidden;
+        overflow-x:hidden
     }
     .navigation{
         top: 100%;
@@ -421,7 +421,8 @@
         font-size: 1rem;
     }
     .navigation .menu {
-        z-index: 1;
+    z-index: 1;
+    display: none;
     width: 50%;
     padding: 1.5rem 0;
     background: #EEE;
@@ -439,6 +440,7 @@
     }
     .navigation .show{
         transform: translateX(0);
+        display: inline-block;
     }
     /* section hero  */
     .hero{
